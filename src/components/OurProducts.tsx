@@ -3,7 +3,7 @@ import {
   ProductAPIMobileAccessories,
   ProductAPISmartphones,
 } from "../service/api.service";
-import { ProductI } from "../lib/types";
+import { ProductI } from "./lib/types";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
