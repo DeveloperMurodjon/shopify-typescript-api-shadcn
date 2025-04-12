@@ -22,8 +22,6 @@ const OurProducts = () => {
           ProductAPIMobileAccessories.getAll(),
           ProductAPISmartphones.getAll(),
         ]);
-        console.log("Accessories:", accessoriesData.products);
-        console.log("Smartphones:", smartphonesData.products);
         setAccessories(accessoriesData.products);
         setSmartphones(smartphonesData.products);
       } catch (err) {
